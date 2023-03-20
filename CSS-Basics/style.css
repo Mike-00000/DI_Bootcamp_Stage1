@@ -1,0 +1,46 @@
+/*selector {
+	Property: value;
+}*/
+
+* {
+	text-align: right;
+}
+body {
+	background-image: url(backgroundimage.avif);
+	background-size: cover;
+}
+
+p {
+	color: #032336;
+	text-align: center;
+	border: 2px solid black;
+	width: 50%; margin: auto; 
+	cursor: pointer;
+}
+
+p {
+    line-height: 20px;
+    font-family: "Sofia"
+}
+
+img {
+	float: left;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 2px solid black;
+	width: 70%; margin: auto; 
+}
+
+#div1 {
+	background: rgba(0, 0, 200, 0.2);
+}
+
+#div2 {
+	background: rgba(200, 0, 0, 0.2);
+}
