@@ -1,0 +1,113 @@
+
+#wrap {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 50px;
+    padding-top: 0px;
+  }
+  
+  #nav {
+    float: left;
+    width: 30%;
+    background-color: rgb(143, 215, 233);
+    min-height: 500px;
+    text-align: center;
+  }
+  
+  #content {
+    float: left;
+    width: 70%;
+    background-color: rgb(102, 143, 231);
+    min-height: 500px;
+    text-align: center
+  }
+  #content li {
+    list-style: none;
+}
+  
+  .copyright {
+    margin-left: 150px;
+    clear: both;
+  }
+  
+  #nav, #content {
+    padding-top: 10px;
+  }
+
+  
+@media all and (min-width: 1024px) {
+    div {
+        width : 50%;
+        display: inline-block;
+        background-color: rgb(50, 40, 134);
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    div {
+        width : 60%;
+        display: inline-block;
+        background-color: rgb(50, 40, 134);
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    div {
+        width : 70%;
+        display: inline-block;
+        background-color: rgb(50, 40, 134);
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    div {
+        width : 80%;
+        display: inline-block;
+        background-color: rgb(50, 40, 134);
+    }
+}
+
+@media all and (max-width: 480px) { 
+    div {
+        width : 100%;
+        background-color: rgb(50, 40, 134);
+        display: inline-block;
+    }
+}
+
+
+/* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 50px;
+    margin-top: 0%;
+    background-color: rgb(38, 38, 124);
+}
+
+
+#wrap {
+    display: inline-flex;
+    align-items: center;
+    width: 50%;
+}
+
+#nav {
+    float: left;
+    background-color: aqua;
+}
+
+#content {
+    float: left;
+    background-color: rgb(73, 117, 212);
+}
+
+#footer {
+    display: block;
+    margin-top: 10px
+}*/
+

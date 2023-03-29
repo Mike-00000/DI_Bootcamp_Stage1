@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.bg {
+    background-image: url("space-4984262_1920.jpg");
+    /*min-height: 100%;*/
+    /*background: url(images/fondecran.jpg) no-repeat center center fixed;*/
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 3px solid black;
+}
+
+section {
+    width: 90%;
+}
+
+div {
+    display: inline-block;
+}
+
+.container, .pic {
+    width: 100%;
+}
+
+.upper-pane, .left-pane, .right-pane, .middle-pane {
+    border: 3px solid black;
+}
+
+.upper-pane {
+    margin-top: 50px;
+    margin-left: 45px;
+    width: 620px;
+    background-color: rgb(43, 226, 67);
+    padding: 50px;
+}
+
+.left-pic, .center-pic, .right-pic {
+    box-sizing: border-box;
+}
+
+.left-pic {
+    margin-left: 43px;
+
+}
+
+.left-pane, .right-pane, .middle-pane {
+    margin: 15px;
+    width: 180px;
+    box-sizing: border-box;
+        height: 150px;
+}
+
+.left-pane {
+    margin-left: 45px;
+    background-color: rgb(252, 107, 10);
+}
+
+.middle-pane {
+    background-color: rgb(216, 10, 10);
+}
+
+.right-pane {
+    background-color: rgb(12, 47, 248);
+}
